@@ -14,10 +14,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Находим кнопку "Next"
         Button btnNext = findViewById(R.id.btnNext);
 
-        // При нажатии переходим в MenuActivity
+
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

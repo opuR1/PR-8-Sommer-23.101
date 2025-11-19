@@ -13,13 +13,11 @@ public class RecipeBorschActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe_borsch);
 
-        // Логика для кнопки НАЗАД
         Button btnBack = findViewById(R.id.btnBack);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Закрываем рецепт, возвращаемся в Меню
                 finish();
             }
         });

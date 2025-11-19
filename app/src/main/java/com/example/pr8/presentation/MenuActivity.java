@@ -15,8 +15,6 @@ public class MenuActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        // 1. Логика для перехода к рецепту БОРЩА
-        // Ищем LinearLayout по ID "Borsch" (как у тебя в xml)
         LinearLayout borschLayout = findViewById(R.id.Borsch);
 
         borschLayout.setOnClickListener(new View.OnClickListener() {
@@ -27,13 +25,11 @@ public class MenuActivity extends Activity {
             }
         });
 
-        // 2. Логика для кнопки НАЗАД
         Button btnBack = findViewById(R.id.btnBack);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // finish() закрывает текущую активность и возвращает на предыдущую (MainActivity)
                 finish();
             }
         });
