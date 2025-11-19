@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="175dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="25dp"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="35dp"
+                android:text="Назад"
+                android:backgroundTint="#8f8181"
+                android:textColor="#FFFFFF"
+                android:textSize="4sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Borsch"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/soup_norm"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"
+                android:text="Борщ"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/borsh" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="Описание:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:text="Говядина на косточке (или другое мясо) - 500г
+            \nВода - 2.5-3 л
+            \nКапуста белокочанная - 400г
+            \nКартофель - 3-4 шт.
+            \nСвекла столовая - 1-2 шт. (средние)
+            \nМорковь - 1 шт.
+            \nЛук репчатый - 1 шт.
+            \nТоматная паста - 2 ст. л.
+            \nУксус 9% (или лимонный сок) - 1 ч. л.
+            \nМасло растительное - 2 ст. л.
+            \nСоль, перец, лавровый лист - по вкусу
+            \nЧеснок - 1-2 зубчика (опционально)
+            \nСметана и зелень - для подачи"/>
+    </LinearLayout>
+</ScrollView>
